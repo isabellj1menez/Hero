@@ -1,0 +1,23 @@
+<div class="jumbotron  Heroesjumbotron">
+    <div class="FiltradoHead">
+        <h1 class="H1"> {{HeroeFiltrado.nombre}} </h1>
+        <button type="button" name="" id="" routerLink="/heroes" class="btn btn-primary btn-lg btn-block BtnHeroeFiltrado">Regresar</button>
+    </div>
+
+    <div class="HeroeFiltrado">
+        <div class="HeroeFiltradoImg">
+            <img [src]="HeroeFiltrado.img" class="card-img-top " alt="... ">
+        </div>
+        <div class="HeroeFiltradoInf">
+            <div>
+                <p>{{HeroeFiltrado.bio}} </p>
+                <p>{{HeroeFiltrado.aparicion}}</p>
+
+            </div>
+            <div class="HeroeFiltradoCasa">
+                <img *ngIf="HeroeFiltrado.casa === 'Marvel'" src="../../../assets/img/marvel.jpg" class="card-img-top " alt="... ">
+                <img *ngIf="HeroeFiltrado.casa === 'DC'" src="../../../assets/img/DC.png" class="card-img-top " alt="... ">
+            </div>
+        </div>
+    </div>
+</div>

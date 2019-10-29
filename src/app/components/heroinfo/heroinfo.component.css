@@ -1,0 +1,51 @@
+.Heroesjumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    width: 100%;
+    height: 85vh;
+}
+
+.FiltradoHead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.FiltradoHead .BtnHeroeFiltrado {
+    width: 20vw;
+}
+
+.Heroesjumbotron .HeroeFiltrado {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+
+.Heroesjumbotron .HeroeFiltrado .HeroeFiltradoImg {
+    width: 100%;
+}
+
+.Heroesjumbotron .HeroeFiltrado .HeroeFiltradoInf {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+.Heroesjumbotron .HeroeFiltrado .HeroeFiltradoInf .HeroeFiltradoCasa {
+    width: 30%;
+    height: 30%;
+    position: relative;
+}
+
+.Heroesjumbotron .HeroeFiltrado .HeroeFiltradoInf .HeroeFiltradoCasa img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
